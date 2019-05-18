@@ -1,0 +1,4 @@
+class ScdOggCryptType:
+    NONE = 0x0000
+    VORBIS_HEADER_XOR = 0x2002
+    FULL_XOR_USING_TABLE = 0x2003

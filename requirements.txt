@@ -1,0 +1,12 @@
+cffi==1.12.3
+entrypoints==0.3
+flake8==3.7.7
+mccabe==0.6.1
+mutagen==1.42.0
+numpy==1.16.3
+pychalk==2.0.1
+pycodestyle==2.5.0
+pycparser==2.19
+pyflakes==2.1.1
+PySoundFile==0.9.0.post1
+six==1.12.0
