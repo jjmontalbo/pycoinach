@@ -3,10 +3,13 @@ import chalk
 import glob
 import os
 import sys
-from . import generate_entry, export_test, pysoundfile_test
+from pycoinach import generate_entry, export_test, pysoundfile_test
 
 
-parser = argparse.ArgumentParser(description='Converts SCD files in a directory to OGG with loop metadata and FLAC that loops twice.')
+parser = argparse.ArgumentParser(
+    description='Converts SCD files in a directory to OGG with loop metadata and FLAC that loops twice.',
+    usage='python -m pycoinach.cmd [-h] [-S] directory'
+)
 parser.add_argument('directory', help='Directory containing SCD files.')
 parser.add_argument('-S', '--no-skip', dest='skip', action='store_false', help='Do not skip over SCD files that have corresponding OGG files with the same name.')
 
