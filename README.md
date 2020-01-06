@@ -1,5 +1,7 @@
 # PyCoinach
 
+**Welcome!**
+
 Python port of [SaintCoinach](https://github.com/ufx/SaintCoinach/).
 
 **This library currently only has support for extracting and converting SCD files to OGG (and FLAC).**
